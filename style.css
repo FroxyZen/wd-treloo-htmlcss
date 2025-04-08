@@ -1,0 +1,136 @@
+body{
+    height: 400vh;
+    width: 100%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    z-index: 90;
+}
+
+.navbar {
+    margin-top: -1rem;
+    top: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 2rem;
+}
+
+.navbar li {
+    display: inline-block;
+    position: relative;
+    margin-right: 2rem;
+    font-size: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#background1 {
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.navbar h1 {
+    margin-left: 5rem;
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar button {
+    margin-right: 4rem;
+    color: whitesmoke;
+    border-radius: 15px;
+    color: rgb(0, 32, 136);
+    padding: 10px 30px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+
+.hero {
+    margin-top: 10rem;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.hero h1 {
+    line-height: 1rem;
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hero p {
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.search-form {
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 15rem;
+}
+
+.ikonmenu {
+    display: flex;
+    display: inline-block;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    margin-right: 60rem;
+    background-color: whitesmoke;
+}
+
+.ikonmenu img {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.ikonmenu label {
+    margin-right: 2rem;
+    font-size: 17px;
+}
+
+.form {
+    justify-content: center;
+    justify-items: center;
+    margin-right: 57.8rem;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+}
+
+.form img {
+    width: 15px;
+    height: 15px;
+}
+.isi-form {
+    padding: 10px;
+}
+
+.isi-form p{
+    font-size: 15px;
+    color: black;
+}
