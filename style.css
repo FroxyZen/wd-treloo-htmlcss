@@ -194,3 +194,25 @@ body{
     width: 20px;
     height: 20px;
 }
+
+.global-info {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-top: 15rem;
+}
+
+.global-info img {
+    margin-left: 5rem;
+}
+
+.global-info h1 {
+    margin-left: 3rem;
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+.global-info p {
+    margin-left: 3rem;
+    color: bisque;
+}
