@@ -48,7 +48,7 @@
 
 .hero {
     position: relative;
-    background-image: url('/assets/pexels-francesco-ungaro-28354361.png');
+    background-image: url('./assets/pexels-francesco-ungaro-28354361.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
